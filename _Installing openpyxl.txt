@@ -1,0 +1,24 @@
+How to install openpyxl:
+
+Please make sure you have pip installed on your system(pip is pre-installed with Python 2.7.12 and above)
+
+Step 1:  
+To check if pip is installed, go to the folder - 'Python27' is, check for a folder named 'Scripts' in the Python folder. In 'Scripts', there must be 6 files with one file named pip.
+If so, copy paste the .tar file into the Scripts folder and proceed to the next step.
+If not, then it may not be possible to install openpyxl using pip. The best solution to this problem is to re-install a new version of Python(preferably version 2.7.12 as it is the version which was used in the making of this project).
+
+Step 2:
+Open command prompt. Change the directory to the Scripts folder by typing the following command:
+                              chdir ......\Python27\Scripts
+where ........ denotes the path of the Python27 folder
+
+Step 3:
+Now type the following command in the Command Prompt window:
+                                      pip install openpyxl
+This must install all the necessary files for the module
+
+
+Now with openpyxl installed, it would be possible to view our project as it is.
+
+Please refer to the following url for clarifications:
+https://www.youtube.com/watch?v=jnpC_Ib_lbc
